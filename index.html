@@ -1,0 +1,352 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css-efect.css" />
+
+  <title>Yesenia's Protfolio</title>
+
+</head>
+
+<body>
+  <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
+      aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (light)">
+      <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
+        <use href="#sun-fill"></use>
+      </svg>
+      <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text" style>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light"
+          aria-pressed="true">
+          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+            <use href="#sun-fill"></use>
+          </svg>
+          Light
+          <svg class="bi ms-auto d-none" width="1em" height="1em">
+            <use href="#check2"></use>
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+          aria-pressed="false">
+          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+            <use href="#moon-stars-fill"></use>
+          </svg>
+          Dark
+          <svg class="bi ms-auto d-none" width="1em" height="1em">
+            <use href="#check2"></use>
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto"
+          aria-pressed="false">
+          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+            <use href="#circle-half"></use>
+          </svg>
+          Auto
+          <svg class="bi ms-auto d-none" width="1em" height="1em">
+            <use href="#check2"></use>
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </div>
+
+
+  <main>
+
+    <div class="container ">
+      <header class="d-flex justify-content-center py-3 fixed-top ">
+        <ul class="nav nav-pills border border-primary-subtle bg-light border-bottom rounded">
+          <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Inicio</a></li>
+          <li class="nav-item"><a href="#resumen" class="nav-link">Resumen</a></li>
+          <li class="nav-item"><a href="#proyectos" class="nav-link">Proyects</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </header>
+    </div>
+
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./assets/images/inicio.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+            height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Bienvenido a mi pagina personal</h1>
+          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+            popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
+            extensive
+            prebuilt components, and powerful JavaScript plugins.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="#contact" class="btn btn-primary btn-lg px-4 me-md-2">Contact</a>
+            <a href="./public/movie-ranking.html" class="btn btn-outline-secondary btn-lg px-4">About</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container marketing" id="resumen">
+      <h2>Resumen de mi <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+          class="bi bi-egg-fried" viewBox="0 0 16 16">
+          <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+          <path
+            d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z" />
+        </svg></h2>
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4  acerca">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-feather"
+            viewBox="0 0 16 16">
+            <path
+              d="M15.807.531c-.174-.177-.41-.289-.64-.363a3.765 3.765 0 0 0-.833-.15c-.62-.049-1.394 0-2.252.175C10.365.545 8.264 1.415 6.315 3.1c-1.95 1.686-3.168 3.724-3.758 5.423-.294.847-.44 1.634-.429 2.268.005.316.05.62.154.88.017.04.035.082.056.122A68.362 68.362 0 0 0 .08 15.198a.528.528 0 0 0 .157.72.504.504 0 0 0 .705-.16 67.606 67.606 0 0 1 2.158-3.26c.285.141.616.195.958.182.513-.02 1.098-.188 1.723-.49 1.25-.605 2.744-1.787 4.303-3.642l1.518-1.55a.528.528 0 0 0 0-.739l-.729-.744 1.311.209a.504.504 0 0 0 .443-.15c.222-.23.444-.46.663-.684.663-.68 1.292-1.325 1.763-1.892.314-.378.585-.752.754-1.107.163-.345.278-.773.112-1.188a.524.524 0 0 0-.112-.172ZM3.733 11.62C5.385 9.374 7.24 7.215 9.309 5.394l1.21 1.234-1.171 1.196a.526.526 0 0 0-.027.03c-1.5 1.789-2.891 2.867-3.977 3.393-.544.263-.99.378-1.324.39a1.282 1.282 0 0 1-.287-.018Zm6.769-7.22c1.31-1.028 2.7-1.914 4.172-2.6a6.85 6.85 0 0 1-.4.523c-.442.533-1.028 1.134-1.681 1.804l-.51.524-1.581-.25Zm3.346-3.357C9.594 3.147 6.045 6.8 3.149 10.678c.007-.464.121-1.086.37-1.806.533-1.535 1.65-3.415 3.455-4.976 1.807-1.561 3.746-2.36 5.31-2.68a7.97 7.97 0 0 1 1.564-.173Z" />
+          </svg>
+
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+          <h2 class="fw-normal">Summary</h2>
+          <p>I am currently 28 years old, I have worked in 3 different places as a graphic designer with a focus on 3D
+            modeling and currently I am more interested in learning more about the digital world and programming.</p>
+          <p><a class="btn btn-secondary" href="./ejercicio.html">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4  acerca">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-backpack4"
+            viewBox="0 0 16 16">
+            <path
+              d="M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4Zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10H5Z" />
+            <path
+              d="M8 0a2 2 0 0 0-2 2H3.5a2 2 0 0 0-2 2v1c0 .52.198.993.523 1.349A.5.5 0 0 0 2 6.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V6.5a.5.5 0 0 0-.023-.151c.325-.356.523-.83.523-1.349V4a2 2 0 0 0-2-2H10a2 2 0 0 0-2-2Zm0 1a1 1 0 0 0-1 1h2a1 1 0 0 0-1-1ZM3 14V6.937c.16.041.327.063.5.063h4v.5a.5.5 0 0 0 1 0V7h4c.173 0 .34-.022.5-.063V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Zm9.5-11a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-9a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h9Z" />
+          </svg>
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+          <h2 class="fw-normal">Education</h2>
+          <p>I am a graphic designer, I am currently studying engineering in computer systems at the Kino University on
+            Saturdays, I also take online courses.
+          </p>
+          <p><a class="btn btn-secondary" href="./ejercicio.html">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4  acerca">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-award"
+            viewBox="0 0 16 16">
+            <path
+              d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z" />
+            <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+          </svg>
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+          <h2 class="fw-normal">Skills</h2>
+          <p>My education and experience have helped me develop various skills in the field of design as well as
+            programming.</p>
+          <p><a class="btn btn-secondary" href="./ejercicio.html">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette " id="proyectos">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
+              class="text-body-secondary">It’ll
+              blow your mind.</span></h2>
+          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
+            here.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="./assets/images/tu-antojo.jpg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+          </img>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See
+              for
+              yourself.</span></h2>
+          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this
+            layout would work with some actual real-world content in place.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="./assets/images/cygnus.png" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+          </img>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
+              class="text-body-secondary">Checkmate.</span></h2>
+          <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
+            intended to be actually read, simply here to give you a better view of what this would look like with some
+            actual content. Your content.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="./assets/images/be-makers.png" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+          </img>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+      <!--acerca de mi-->
+      <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary" id="about">
+        <div class="col-lg-6 px-0">
+          <h1 class="display-4 fst-italic">Acerca de mí</h1>
+          <p class="lead my-3">A continuacion te dejo un link con mi top 3 de peliculas favoritas de todos los tiempos y
+            si no las conoces, espero te animes averlas.</p>
+          <p class="lead mb-0"><a href="./public/movie-ranking.html" class="text-body-emphasis fw-bold">Continua leyendo
+              ...</a></p>
+        </div>
+      </div>
+      <br>
+      <!--formulario de contacto-->
+      <div class="container row g-5">
+        <div class="col-md-5 col-lg-4 order-md-last d-flex align-items-center">
+          <div class="align-self-center">
+            <img
+              src="https://media.istockphoto.com/id/1477509958/es/foto/p%C3%A1gina-del-sitio-web-cont%C3%A1ctenos-o-concepto-de-marketing-por-correo-electr%C3%B3nico-l%C3%ADnea-directa.jpg?s=1024x1024&w=is&k=20&c=dKzpHsx3j7O38_yrE2ehDjW4QqBZPzxsixuKPXSDKQo="
+              width="100%">
+          </div>
+        </div>
+
+
+
+
+
+        <div class=" col-md-7 col-lg-8" id="contact">
+          <h4 class="mb-3">Contactame</h4>
+          <form class="needs-validation" novalidate="">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+
+
+              <div class="col-12">
+                <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
+
+
+
+              <div class="col-12">
+                <label for="address2" class="form-label">Address <span
+                    class="text-body-secondary">(Optional)</span></label>
+                <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+              </div>
+
+              <div class="col-md-5">
+                <label for="country" class="form-label">Country</label>
+                <select class="form-select" id="country" required="">
+                  <option value="">Choose...</option>
+                  <option>Mexico</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state" required="">
+                  <option value="">Choose...</option>
+                  <option>Sonora</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+
+
+            </div>
+
+            <br>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+
+            <hr class="my-4">
+
+            <button class="w-100 btn btn-primary btn-lg" type="submit">Send Email</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="container">
+      <p class="float-end"><a href="#">Subir</a></p>
+      <p>© 2017–2023 Yesenia's Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+
+  </main>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>
